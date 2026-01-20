@@ -1,54 +1,54 @@
-Promptly
+# Promptly
 
-### VS Code için Akıllı Prompt Çevirmeniniz
+### Your Smart Prompt Translator for VS Code
 
 [![GitHub release](https://img.shields.io/github/v/release/scikrikci/promptly-releases?style=flat-square)](https://github.com/scikrikci/promptly-releases/releases/latest)
 [![License](https://img.shields.io/github/license/scikrikci/promptly-releases?style=flat-square)](./LICENSE)
 
 ---
 
-**Promptly**, yapay zeka ile çalışırken yazdığınız prompt'ları doğrudan Visual Studio Code içerisinden farklı dillere çevirmenizi sağlayan bir eklentidir. Artık çeviri yapmak için kod düzenleyicinizden ayrılmanıza gerek yok.
+**Promptly** is an extension that lets you translate the prompts you write while working with AI directly inside Visual Studio Code into different languages. No need to leave your editor just to translate.
 
-## ❓ Kaynak Kod Nerede?
+## ❓ Where Is the Source Code?
 
-Bu proje, "Açık Sürüm, Kapalı Kaynak" modelini benimsemektedir.
+This project follows an "Open Release, Closed Source" model.
 
-**Kaynak Kod:** Projenin kaynak kodu, fikri mülkiyeti korumak amacıyla özel (private) bir GitHub reposunda geliştirilmektedir.
-**Bu Repo:** Burası (`promptly-releases`), son kullanıcılar için **dağıtım, dokümantasyon ve geri bildirim merkezi** olarak hizmet vermektedir. Burada eklentinin kullanıma hazır sürümlerini bulabilir, hata bildirebilir ve özellikler önerebilirsiniz.
+**Source Code:** The source code is developed in a private GitHub repository to protect intellectual property.  
+**This Repo:** This repository (`promptly-releases`) serves as the **distribution, documentation, and feedback hub** for end users. Here you can find ready-to-install releases, report bugs, and suggest features.
 
-## 📦 Kurulum
+## 📦 Installation
 
-Eklentiyi kurmanın iki yolu vardır:
+There are two ways to install the extension:
 
-### Yöntem 1: Visual Studio Code Marketplace (Yakında)
+### Method 1: Visual Studio Code Marketplace (Coming Soon)
 
-Eklenti Marketplace'te yayınlandığında, en kolay kurulum yöntemi bu olacaktır.
+Once the extension is published on the Marketplace, this will be the easiest installation method.
 
-1.  Visual Studio Code'u açın.
-2.  `Extensions` paneline gidin (Ctrl+Shift+X).
-3.  Arama çubuğuna `Promptly` yazın.
-4.  `Install` düğmesine tıklayın.
+1. Open Visual Studio Code.
+2. Go to the `Extensions` panel (Ctrl+Shift+X).
+3. Search for `Promptly`.
+4. Click `Install`.
 
-### Yöntem 2: GitHub Releases'den Manuel Kurulum
+### Method 2: Manual Installation from GitHub Releases
 
-1.  Bu reponun [**Releases**](https://github.com/scikrikci/promptly-releases/releases) sayfasına gidin.
-2.  En son sürümün altındaki `Assets` bölümünden `.vsix` uzantılı dosyayı indirin.
-3.  Visual Studio Code'u açın.
-4.  `Extensions` paneline gidin.
-5.  Panelin sağ üst köşesindeki üç noktaya (`...`) tıklayın ve `Install from VSIX...` seçeneğini seçin.
-6.  İndirdiğiniz `.vsix` dosyasını seçin ve kurulumu tamamlayın.
+1. Go to the [**Releases**](https://github.com/scikrikci/promptly-releases/releases) page of this repository.
+2. Under the latest release, download the `.vsix` file from the `Assets` section.
+3. Open Visual Studio Code.
+4. Go to the `Extensions` panel.
+5. Click the three dots (`...`) in the top-right corner and select `Install from VSIX...`.
+6. Select the downloaded `.vsix` file and complete the installation.
 
-## ✨ Özellikler
+## ✨ Features
 
-**Anında Çeviri:** Prompt'larınızı tek tıkla istediğiniz dile çevirin.
-**Çoklu Model Desteği:** Farklı yapay zeka modelleriyle entegrasyon.
-**Geçmiş Kaydı:** Önceki çevirilerinizi kolayca görüntüleyin ve tekrar kullanın.
-**Kullanıcı Dostu Arayüz:** Tüm işlemler için basit ve sezgisel bir panel.
+**Instant Translation:** Translate your prompts into your desired language with a single click.  
+**Multi-Model Support:** Integration with different AI models.  
+**History Log:** Easily view and reuse previous translations.  
+**User-Friendly UI:** A simple and intuitive panel for all operations.
 
-## 🐞 Geri Bildirim ve Destek
+## 🐞 Feedback & Support
 
-Bir hatayla karşılaşırsanız veya bir özellik önermek isterseniz, lütfen bu reponun [**Issues**](https://github.com/scikrikci/promptly-releases/issues) sekmesini kullanarak bir bildirim oluşturun.
+If you encounter a bug or want to suggest a feature, please create an issue via the [**Issues**](https://github.com/scikrikci/promptly-releases/issues) tab in this repository.
 
-## 📄 Lisans
+## 📄 License
 
-Bu proje [MIT Lisansı](./LICENSE) altındadır.
+This project is licensed under the [MIT License](./LICENSE).
